@@ -1,0 +1,23 @@
+.a
+{
+text-align: center;
+background-color: aqua;
+}
+
+.a_text
+{
+ padding: 2em;
+
+}
+
+.b
+{
+text-align: center;
+background-color: rgb(17, 67, 100);
+padding: 2em;
+}
+
+.b_text1
+{
+font-size: 2em;
+}
