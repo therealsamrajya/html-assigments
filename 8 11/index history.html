@@ -5,24 +5,19 @@
 <style>
 * {
   box-sizing: border-box;
+  margin:0 px;
+  padding:0 px;
 }
 .menu {
   float: left;
   width: 20%;
 }
-.menuitem  {
+.menuitem {
   padding: 8px;
   margin-top: 7px;
   border-bottom: 1px solid #f1f1f1;
   text-decoration:none;
 }
-.menuitem a:hover
-{
- background-color:blue;
-text-decoration:none;
-
-}
-
 .main {
   float: left;
   width: 60%;
@@ -36,10 +31,16 @@ text-decoration:none;
   padding: 10px 15px;
   margin-top: 9px;
 }
-.menuitem a{
+.menuitem a:hover{
+  background-color:blue;
   text-decoration:none;
   color:black;
   }
+  .menuitem a
+  {
+  text-decoration:none;
+  }
+
 @media only screen and (max-width:800px) {
   /* For tablets: */
   .main {
@@ -78,7 +79,8 @@ text-decoration:none;
     <div class="menuitem">
 		<a href="indexx.html">History</a>
 		</div>
-    <div class="menuitem">Gallery</div>
+    <div class="menuitem">
+	<a href="index gallery.html">Gallerys</a></div>
   </div>
 
   <div class="main">
